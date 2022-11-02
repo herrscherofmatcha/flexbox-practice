@@ -1,0 +1,24 @@
+.container {
+    height: 120px;
+    padding: 30px;
+    background: cornflowerblue;
+    border: 5px white;
+}
+.item {
+    text-align: center;
+    height: 70px;
+    border: 2px crimson;
+    background: lightcoral;
+    align-items: center;
+}
+.box {
+    height: 200px;
+    padding: 10px;
+    background: powderblue;
+    border: 5px black;
+}
+.text {
+    text-align: left;
+    color: black;
+    background: pink;
+}

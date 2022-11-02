@@ -1,0 +1,19 @@
+.textbox {
+    height: 250px;
+    padding: 30px;
+    background: lightgoldenrodyellow;
+    border: 5px;
+}
+.logo {
+    background: white;
+    color: orange;
+}
+.textagain {
+    display: flex;
+    align-content: space-around;
+    height: 20px;
+    padding: 10px;
+    border: 2px;
+    color: blue;
+    background: white;
+}
