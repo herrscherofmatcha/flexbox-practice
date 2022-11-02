@@ -3,17 +3,40 @@
     padding: 30px;
     background: lightgoldenrodyellow;
     border: 5px;
+    display: flex;
+}
+.anotherbox {
+    height: 40px;
+    padding: 20px;
+    border: 5px;
+    display: flex;
 }
 .logo {
     background: white;
     color: orange;
+    align-self: center;
 }
-.textagain {
-    display: flex;
-    align-content: space-around;
+.textone {
     height: 20px;
-    padding: 10px;
+    padding: 5px;
     border: 2px;
     color: blue;
     background: white;
+    flex: 1;
+}
+.texttwo {
+    height: 20px;
+    padding: 5px;
+    border: 2px;
+    color: blue;
+    background: white;
+    flex: 1;
+}
+.textthree {
+    height: 20px;
+    padding: 5px;
+    border: 2px;
+    color: blue;
+    background: white;
+    flex: 1;
 }
