@@ -1,0 +1,30 @@
+.boxone {
+    height: 100px;
+    padding: 5px;
+    border: 3px;
+    background: lightgrey;
+    display: flex;
+    align-content: center;
+}
+.logotwo {
+    color: blueviolet;
+    font-size: 40px;
+    font-style: italic;
+}
+.itemsone {
+    color: blueviolet;
+}
+.boxtwo {
+    height: 100px;
+    padding: 5px;
+    border: 3px;
+    background: lightgrey;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+}
+.itemstwo {
+    background: blueviolet;
+    color: white;
+    border-radius: 6px;
+}
