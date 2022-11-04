@@ -1,21 +1,22 @@
 .boxone {
-    height: 100px;
+    height: 20px;
     padding: 5px;
-    border: 3px;
+    border: 6px;
     background: lightgrey;
     display: flex;
-    align-content: center;
 }
 .logotwo {
     color: blueviolet;
     font-size: 40px;
     font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .itemsone {
     color: blueviolet;
+    align-content: space-between 8px;
 }
 .boxtwo {
-    height: 100px;
+    height: 20px;
     padding: 5px;
     border: 3px;
     background: lightgrey;
