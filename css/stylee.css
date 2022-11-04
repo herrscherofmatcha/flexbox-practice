@@ -1,9 +1,10 @@
 .boxone {
-    height: 20px;
+    height: 80px;
     padding: 5px;
-    border: 6px;
+    border: 6px red;
     background: lightgrey;
     display: flex;
+    justify-content: space-between;
 }
 .logotwo {
     color: blueviolet;
@@ -13,16 +14,14 @@
 }
 .itemsone {
     color: blueviolet;
-    align-content: space-between 8px;
 }
 .boxtwo {
-    height: 20px;
+    height: 80px;
     padding: 5px;
-    border: 3px;
+    border: 3px red;
     background: lightgrey;
     display: flex;
-    flex-direction: row-reverse;
-    align-content: flex-start;
+    justify-content: flex-end;
 }
 .itemstwo {
     background: blueviolet;
