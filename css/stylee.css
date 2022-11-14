@@ -1,30 +1,67 @@
-.boxone {
-    height: 80px;
-    padding: 5px;
-    border: 6px red;
-    background: lightgrey;
-    display: flex;
-    justify-content: space-between;
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
 }
-.logotwo {
-    color: blueviolet;
-    font-size: 40px;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
-.itemsone {
-    color: blueviolet;
+
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height:  48px;
 }
-.boxtwo {
-    height: 80px;
-    padding: 5px;
-    border: 3px red;
-    background: lightgrey;
-    display: flex;
-    justify-content: flex-end;
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
 }
-.itemstwo {
-    background: blueviolet;
-    color: white;
-    border-radius: 6px;
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* SOLUTION */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
