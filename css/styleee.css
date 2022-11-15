@@ -1,0 +1,21 @@
+.containerjuan {
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.containerone {
+    background: white;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap 32px;
+    justify-content: center;
+}
+/*fix it so the text is at the bottom*/
+.itemone {
+    background: white;
+    color: black;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
