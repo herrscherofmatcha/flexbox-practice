@@ -1,3 +1,6 @@
+body {
+    text-align: center;
+}
 .containerjuan {
     background: white;
     color: black;
@@ -8,14 +11,10 @@
 .containerone {
     background: white;
     color: black;
-    display: flex;
-    flex-wrap: wrap 32px;
 }
 /*fix it so the text is at the bottom*/
 .itemone {
     background: white;
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    align-content: flex-end;
 }
