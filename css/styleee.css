@@ -1,20 +1,27 @@
 body {
     text-align: center;
 }
+.title {
+    background: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
 .containerjuan {
     background: white;
     color: black;
-    display: flex;
-    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 .containerone {
     background: white;
     color: black;
 }
-/*fix it so the text is at the bottom*/
 .itemone {
     background: white;
     color: black;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
 }
